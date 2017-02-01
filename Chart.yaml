@@ -1,0 +1,13 @@
+name: nginx
+description: A basic Nginx HTTP Server
+version: 0.1.0
+keywords:
+  - http
+  - nginx
+home: "https://github.com/kubernetes/helm"
+sources:
+  - "https://hub.docker.com/_/nginx/"
+maintainers:
+  - name: spesnova
+    email: spesnova@qiita.com
+engine: gotpl
